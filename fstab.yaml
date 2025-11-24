@@ -1,7 +1,7 @@
 mountpoints:
   /:
-    url: "https://author-p8661-e1181478.adobeaemcloud.com/bin/franklin.delivery/sameryadav/frescopa/main"
+    url: https://content.da.live/sameryadav/da-frescopa/
     type: "markup"
-    suffix: ".html"
+
 folders:
   /products/: /products/default
