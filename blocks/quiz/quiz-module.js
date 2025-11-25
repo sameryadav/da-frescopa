@@ -36,9 +36,9 @@ export default function Quiz({ questions = [] }) {
     // console.log('All answers:', answers);
     // console.log(answers[0].idx);
 
-    let coffeeProfile = { title: '', segment: '' };
+    const coffeeProfile = { title: '', segment: '' };
     if (answers[0].idx === 0) {
-      coffeeProfile.title = 'Sandy Sipper'
+      coffeeProfile.title = 'Sandy Sipper';
     } else {
       coffeeProfile.title = 'Coffee Explorer';
     }
@@ -94,7 +94,7 @@ export default function Quiz({ questions = [] }) {
             onClick: () => {
               setStep(0);
               setAnswers([]);
-            }
+            },
           }, 'Restart Quiz'),
               ),
             ),
